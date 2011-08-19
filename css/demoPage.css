@@ -1,0 +1,126 @@
+html, body {
+	font-family: arial;
+	background: #eee;
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+#heading{
+	height:25px;
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	width:700px;
+	margin: 40px 0 40px 15px ;	
+	border-bottom:1px solid #ccc;
+	
+}
+
+#CSS_BOX {
+	margin-left:350px;
+	float:left;
+}
+
+#wrapper {
+	width:940px;
+	height:100%;
+	margin: 0 auto;
+	background: #fff;
+	padding:30px;
+	position:relative;
+}
+
+#twitterBox {
+	position:absolute;
+	top:200px;
+	left:120px;
+	margin:0 0 0 0px;
+}
+
+#twitterBox h2{
+	font-family:arial;
+	text-align:center;		
+}
+
+#twitterBox2 {
+	position:absolute;
+	top:200px;
+	left:420px;
+	margin:0 0 0 0px;
+}	
+
+#twitterBox2 h2{
+	font-family:arial;
+	text-align:center;		
+}
+
+#nedeco_tweetList{
+	list-style:none;
+	margin:0;
+	padding:0px;
+	width:100%;
+	
+}
+
+#nedeco_tweetList a:link, #tweetList a:visited{
+	text-decoration:none;
+}
+
+#nedeco_tweetList li{
+	padding:5px 5px 5px 5px;
+	border-top:1px solid #ccc;
+}
+
+#nedeco_tweetList li p{
+	font-family:arial;
+	color:#222;
+	font-size:12px;
+	padding:0 0 0 5px;
+	margin:0;
+}
+
+#nedeco_tweetList li p .tweetFooter{
+	font-family:arial;
+	font-size:10px;
+	margin:0;
+}
+
+#nedeco2_tweetList{
+	list-style:none;
+	margin:0;
+	padding:0px;
+	width:100%;	
+}
+
+#nedeco2_tweetList a:link, #tweetList a:visited{
+	text-decoration:none;
+}
+
+#nedeco2_tweetList li{
+	padding:5px 5px 5px 5px;
+	border-top:1px solid #ccc;
+}
+
+#nedeco2_tweetList li p{
+	font-family:arial;
+	color:#222;
+	font-size:12px;
+	padding:0 0 0 5px;
+	margin:0;
+}
+
+#nedeco2_tweetList li p .tweetFooter{
+	font-family:arial;
+	font-size:10px;
+	margin:0;
+}
+
+#twitterLoaderGif{
+	width:100%;
+	text-align:center;
+}
